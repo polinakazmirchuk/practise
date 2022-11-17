@@ -1,0 +1,81 @@
+* {margin: 0;
+padding: 0;
+box-sizing: border-box;} /* падінг додається в середині блоку, а не збільшує блок */
+
+.wrapper {width: 905px;
+margin: 0 auto;}
+
+.header, .footer {height: 182px;
+padding: 1px;}
+
+.main {height: 1872px;
+font-size: 0px;}
+
+.card {width: 420px;
+height: 516px;
+display: inline-block; }
+
+.right {margin: 0 0 0 65px;}
+
+.long {height: 546px;}
+.card:nth-child(3), .card:nth-child(4){
+margin-top: 130px;}
+
+.card:nth-child(5),
+.card:nth-child(6) {
+    margin-top: 126px;
+}
+
+.nav {width: 554px;
+    height: 30px;
+margin: 68px auto;}
+
+.menu{
+list-style: none; 
+font-size: 0;
+ }
+
+.list-item {
+    display: inline-block;
+font-size: 14px;
+margin-left: 91px;
+line-height: 30px;
+font-family: Playfair Display, serif;
+color: #7D7D7D;}
+
+
+.list-item:nth-child(1){margin-left: 0;
+color: #03A9F4}
+
+.card-img {height: 280px;
+width: 420px; }
+
+.name {margin-top: 62px;
+font-size: 14px;
+color: #B4AD9E;
+font-family: Ubutu, sans-serif;
+font-weight: 300;}
+
+.headline {font-size: 33px;
+color: #626262;
+margin-top: 32px;
+font-weight: 400;}
+
+.text {font-size: 15.5px;
+color: #626262;
+margin-top: 40px;
+width: 408px;
+height: 76px;
+font-weight: 400;}
+
+.button {background:#fff;
+height: 60px;
+width: 165px;
+border: solid 2px #626262;
+color: #626262;
+font-family: Playfair Display, serif;
+margin: 53px 382px 65px 360px;
+font-size: 15.5px;}
+
+.less
+{margin-top: 32px;}
